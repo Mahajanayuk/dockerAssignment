@@ -11,7 +11,7 @@ Clone the project.
 cd to project directory
 create keys as follows:
 
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout <project-dir>/nginx/certs/nginx-selfsigned.key -out <project-dir>/nginx /certs/selfsigned.crt
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout <project-dir>/nginx/certs/nginx-selfsigned.key -out <project-dir>/nginx /certs/nginx-selfsigned.crt
 
 create dh param key as :
 
